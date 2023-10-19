@@ -1,5 +1,6 @@
 {
   "expo": {
+    "jsEngine": "hermes",
     "scheme": "acme",
     "web": {
       "bundler": "metro"
@@ -8,6 +9,9 @@
       "expo-router"
     ],
     "name": "training",
-    "slug": "training"
+    "slug": "training",
+    "ios": {
+      "bundleIdentifier": "com.anonymous.training"
+    }
   }
 }
