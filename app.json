@@ -11,7 +11,25 @@
     "name": "training",
     "slug": "training",
     "ios": {
-      "bundleIdentifier": "com.anonymous.training"
+      "bundleIdentifier": "com.anonymous.training",
+      "runtimeVersion": "1.0.0"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f036b5b7-387a-4a48-aac3-69a153ab5be2"
+      }
+    },
+    "android": {
+      "package": "com.solulink.jobsearch",
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f036b5b7-387a-4a48-aac3-69a153ab5be2"
     }
   }
 }

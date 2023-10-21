@@ -1,7 +1,23 @@
 {
-  "name": "training",
+  "name": "jobSearch",
+  "slug": "jobSearch",
   "version": "1.0.0",
   "main": "index.js",
+  "orientation":"portrait",
+  "icon":"./assets/icons/google.png",
+  "splash": {
+    "image": "./assets/images/201511-toan.jpg",
+    "resizeMode":"contain",
+    "backgroundColor": "#332424"
+  },
+  "android":{
+    "package":"solulink.jobsearch",
+    "versionCode": 1,
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/adaptive-icon.png",
+      "backgroundColor": "#332424"
+    }
+  },
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
